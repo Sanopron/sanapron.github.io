@@ -24,7 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 100px);
+    height: 100px; /* Height for the icons */
     gap: 20px; /* Space between icons */
 }
 
@@ -42,4 +42,17 @@ body {
 .icon:hover {
     background-color: rgba(255, 255, 255, 0.1); /* Lighten on hover */
     transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 200px); /* Adjust height to fit the page */
+}
+
+.game {
+    width: 80%; /* Width of the iframe */
+    height: 100%; /* Full height of the container */
+    border: none;
 }
