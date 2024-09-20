@@ -9,8 +9,11 @@
 <body>
     <h1 class="title">Sanapron</h1>
     <div class="container">
-        <div class="icon" onclick="window.open('https://krunker.io', '_blank')">Krunker.io</div>
-        <div class="icon" onclick="window.open('https://mope.io', '_blank')">Mope.io</div>
+        <div class="icon" onclick="openGame('https://krunker.io')">Krunker.io</div>
+        <div class="icon" onclick="openGame('https://mope.io')">Mope.io</div>
+    </div>
+    <div class="iframe-container">
+        <iframe id="gameFrame" src="" class="game" title="Game"></iframe>
     </div>
     <script src="script.js"></script>
 </body>
