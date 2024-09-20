@@ -1,6 +1,3 @@
-Create a file named script.js and add the following code:
-
-
 ```javascript
 const numDots = 100; // Number of dots
 const dots = [];
